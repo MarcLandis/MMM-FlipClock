@@ -11,6 +11,7 @@ A classic flip clock for the [MagicMirror²](https://github.com/MagicMirrorOrg/M
 ```bash
 cd ~/MagicMirror/modules # navigate to module folder
 git clone https://github.com/MarcLandis/MMM-FlipClock # clone this repository
+cd MMM-FlipClock
 npm install
 ```
 
@@ -31,7 +32,7 @@ npm install
 Execute the following commands to update the module:
 
 ```bash
-cd ~/MagicMirror/modules # navigate to module folder
+cd ~/MagicMirror/modules/MMM-FlipClock
 git pull
 npm install
 ```
