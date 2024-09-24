@@ -1,0 +1,26 @@
+{
+  "name": "mmm-flipclock",
+  "version": "1.0.0",
+  "description": "A module for a classic flip clock.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarcLandis/MMM-FlipClock"
+  },
+  "keywords": [
+    "MagicMirror",
+    "smart mirror",
+    "date",
+    "time",
+    "module"
+  ],
+  "author": "Marc Landis",
+  "contributors": ["https://github.com/MarcLandis/MMM-FlipClock/graphs/contributors"],
+  "license": "MIT",
+  "bugs": {
+    "url": "git+https://github.com/MarcLandis/MMM-FlipClock/issues"
+  },
+  "homepage": "git+https://github.com/MarcLandis/MMM-FlipClock#readme",
+  "dependencies": {
+    "@pqina/flip":"^1.8.3"
+  }
+}

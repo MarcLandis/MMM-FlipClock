@@ -1,9 +1,9 @@
 /* global Module */
 
-/* Magic Mirror
+/* MagicMirror²
  * Module: MMM-FlipClock
  *
- * By Dirk Rettschlag
+ * By Marc Landis
  * MIT Licensed.
  */
 Module.register("MMM-FlipClock", {
@@ -22,11 +22,11 @@ Module.register("MMM-FlipClock", {
     },
     // Define required scripts.
     getScripts: function() {
-        return ["moment.js", "moment-timezone.js", this.file("flip/flip.js")];
+        return ["moment.js", "moment-timezone.js", this.file("node_modules/@pqina/flip/dist/flip.min.js")];
     },
     // Define styles.
     getStyles: function() {
-        return [this.file("flip/flip.css"), "MMM-FlipClock.css"];
+        return [this.file("node_modules/@pqina/flip/dist/flip.min.css"), "MMM-FlipClock.css"];
     },
     // Define start sequence.
     start: function() {
