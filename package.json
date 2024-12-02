@@ -21,6 +21,6 @@
   },
   "homepage": "git+https://github.com/MarcLandis/MMM-FlipClock#readme",
   "dependencies": {
-    "@pqina/flip":"^1.8.3"
+    "@pqina/flip":"^1.8.4"
   }
 }
